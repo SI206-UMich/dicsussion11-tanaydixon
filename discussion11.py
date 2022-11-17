@@ -44,7 +44,7 @@ def create_patients_table(cur, conn):
 
 # ADD FLUFFLE TO THE TABLE
 def add_fluffle(cur, conn):
-    cur.execute('INSERT INTO species')
+    cur.execute('INSERT INTO species ( Rabbit, 3')
     
 
 # TASK 2
